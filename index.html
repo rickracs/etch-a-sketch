@@ -8,11 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="reset">Reset grid</button>
+   
+    
     <div class="etchbox">
 
 
     </div>
+    <button id="reset">Reset grid</button>
+    <input type="range" id="gridsize" name="gridsize" min="16" max="64" step="8" value="16" oninput="this.nextElementSibling.value = this.value">
+    <output>-</output>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
